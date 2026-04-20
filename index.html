@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dalila Betancourt | Portafolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+
+<nav id="cabeza" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Portafolio</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="hero" class="d-flex align-items-center">
+  <div class="container text-start">
+    <h1>Dalila Betancourt</h1>
+    <h3>Soy <span id="typing"></span></h3>
+    <a href="#projects" class="btn btn-outline-light mt-3">Ver proyectos</a>
+  </div>
+</section>
+
+
+<section id="about" class="section-dark">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-7 text-start">
+        <h2>Sobre mí</h2>
+        <p class="fs-5"> Soy una <strong>Desarrolladora Full Stack</strong> apasionada por construir soluciones digitales escalables y eficientes. Mi formación técnica en el ecosistema de <strong>JavaScript (Node.js, Express, PostgreSQL)</strong> se complementa con una sólida trayectoria en <strong>Marketing Digital</strong>. 
+        </p>
+        <p class="fs-5">
+          Esta combinación me permite no solo escribir código limpio, sino diseñar arquitecturas web optimizadas para la conversión, el rendimiento SEO y la experiencia del usuario final. Busco transformar desafíos técnicos en oportunidades de negocio mediante el desarrollo de APIs robustas y frontends dinámicos.
+        </p>
+      </div>
+      <div class="col-md-5 text-center">
+        <img src="image/dalila_prodfesionalsinfondo.png" class="image-about" alt="Dalila">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section-dark">
+  <div class="container text-center">
+    <h2>Habilidades Técnicas</h2>
+    <div class="row mt-4">
+      <div class="col-md-3 mb-4">
+        <div class="skill-card-custom">
+          <h5>Frontend</h5>
+          <p>HTML5, CSS3, JavaScript (ES6+), Bootstrap, jQuery, Responsive Design</p>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="skill-card-custom">
+          <h5>Backend & APIs</h5>
+          <p>Node.js, Express, REST APIs, Autenticación JWT, Arquitectura MVC</p>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="skill-card-custom">
+          <h5>Bases de Datos</h5>
+          <p>PostgreSQL, SQL avanzado, Sequelize (ORM), Modelado ER</p>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="skill-card-custom">
+          <h5>Tools & Growth</h5>
+          <p>Git/GitHub, Postman, Google Analytics, SEO Técnico, Ads Tech</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section-dark text-center">
+  <div class="container">
+    <h2>Proyectos Destacados</h2>
+    
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+
+        <div class="card card-horizontal">
+          <div class="row g-0 align-items-center"> <div class="col-md-5">
+              <img src="image/fondo_heladeria.png" class="img-fluid project-img" alt="Mordisko JWT">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title">Mordisko - Gestión de Inventario</h5>
+                <p class="card-text">Sistema de gestión con autenticación JWT y CRUD completo. Desarrollado con <strong>Node.js, Express y PostgreSQL</strong> para un manejo seguro de datos.</p>
+                <a href="https://github.com/dalilabetancourt/mordisko_jwt" target="_blank" class="btn btn-outline-light btn-sm">Ver código en GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-horizontal">
+          <div class="row g-0 align-items-center">
+            <div class="col-md-5">
+              <img src="image/fondo_flex.png" class="img-fluid project-img" alt="Flux Billetera">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title">Flux - Billetera Inteligente</h5>
+                <p class="card-text">Interfaz interactiva para control financiero. Utiliza <strong>jQuery y Bootstrap</strong> para validación dinámica de datos y actualización en tiempo real.</p>
+                <a href="https://github.com/dalilabetancourt/flux" target="_blank" class="btn btn-outline-light btn-sm">Ver código en GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-horizontal">
+          <div class="row g-0 align-items-center">
+            <div class="col-md-5">
+              <img src="image/fondo_lista.png" class="img-fluid project-img" alt="Lista Tareas">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title">Task Manager Express</h5>
+                <p class="card-text">Aplicación de productividad enfocada en la manipulación del DOM. Construida con <strong>JavaScript, HTML y CSS3</strong> para maximizar el rendimiento.</p>
+                <a href="https://github.com/dalilabetancourt/lista_tareas/" target="_blank" class="btn btn-outline-light btn-sm">Ver código en GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> </div> </div>
+</section>
+
+<section id="contact" class="section-contacto">
+  <div class="container text-center">
+    <h2>¡Trabajemos juntos!</h2>
+    <p class="lead fw-bold mb-4">dalilabetancourt50@gmail.com </p>
+    
+    <div class="d-flex justify-content-center gap-3">
+      <a href="https://github.com/dalilabetancourt" class="btn btn-light px-4 py-2">GitHub</a>
+      <a href="https://www.linkedin.com/in/dalila-betancourt-trestini-1b49a2350" class="btn btn-light px-4 py-2">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<footer class="text-center p-3 bg-black text-white">
+  © 2026 Dalila Betancourt
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  var typed = new Typed('#typing', {
+    strings: ['Full Stack Developer', 'Marketing Tech Specialist'],
+    typeSpeed: 50,
+    backSpeed: 30,
+    loop: true
+  });
+</script>
+
+</body>
+</html>
